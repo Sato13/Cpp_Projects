@@ -1,0 +1,4 @@
+#!/bin/sh
+source /opt/asn/etc/asn-bash-profiles-special/modules.sh
+module load openmpi/3.1.1-gnu-pmi2
+srun --mpi=pmi2 knnmpi1

@@ -1,0 +1,108 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: runIris6
+  The time limit is 24:00:00 HH:MM:SS.
+  The target directory is: /home/usacls12/knnmpi
+  The working directory is:  /scratch-local/usacls12.irisSlurm.258749
+  The memory limit is: 7gb
+  The job will start running after: 2019-04-03T16:25:01
+  Job Name: irisSlurm
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: --constraint=dmc
+  Using  7  cores on master node  dmc40
+  Node list:  dmc40
+  Nodes:  dmc40 dmc40 dmc40 dmc40 dmc40 dmc40 dmc40
+  Command typed:
+/apps/scripts/run_script_mpi runIris6     
+  Queue submit command:
+sbatch --qos=class -J irisSlurm --begin=2019-04-03T16:25:01 --requeue --mail-user=usacls12@dmc.sac -o irisSlurm.o258749 -t 24:00:00 -n 7 --mem-per-cpu=1000mb --constraint=dmc  
+ 
+72 - 12
+23
+74 - 36
+47
+71 - 0
+11
+75 - 48
+59
+73 - 24
+35
+76 - 60
+71
+52515251 = class 3, rank: 6
+62516251 = class 3, rank: 6
+73527352 = class 3, rank: 6
+62416241 = class 3, rank: 6
+73627362 = class 3, rank: 6
+63516351 = class 3, rank: 6
+63526352 = class 3, rank: 6
+62516251 = class 3, rank: 6
+63626362 = class 3, rank: 6
+53515351 = class 3, rank: 6
+63526352 = class 3, rank: 6
+63526352 = class 3, rank: 6
+53105310 = class 3, rank: 2
+53105310 = class 3, rank: 2
+54105410 = class 3, rank: 2
+53105310 = class 3, rank: 2
+43104310 = class 3, rank: 2
+53105310 = class 3, rank: 2
+53105310 = class 3, rank: 2
+53105310 = class 3, rank: 2
+53105310 = class 3, rank: 2
+43104310 = class 3, rank: 2
+43104310 = class 3, rank: 2
+43104310 = class 3, rank: 2
+53105310 = class 3, rank: 1
+43104310 = class 3, rank: 1
+54105410 = class 3, rank: 1
+54105410 = class 3, rank: 1
+53105310 = class 3, rank: 1
+43104310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+53105310 = class 3, rank: 1
+54105410 = class 3, rank: 3
+63416341 = class 3, rank: 3
+63416341 = class 3, rank: 3
+62416241 = class 3, rank: 3
+53415341 = class 3, rank: 3
+53415341 = class 3, rank: 3
+52415241 = class 3, rank: 3
+52315231 = class 3, rank: 3
+52415241 = class 3, rank: 3
+63416341 = class 3, rank: 3
+62416241 = class 3, rank: 3
+52415241 = class 3, rank: 3
+52415241 = class 3, rank: 5
+63416341 = class 3, rank: 5
+52525252 = class 3, rank: 5
+72617261 = class 3, rank: 5
+62516251 = class 3, rank: 5
+63526352 = class 3, rank: 5
+72617261 = class 3, rank: 5
+63516351 = class 3, rank: 5
+63526352 = class 3, rank: 5
+62416241 = class 3, rank: 5
+73517351 = class 3, rank: 5
+63416341 = class 3, rank: 5
+63416341 = class 3, rank: 4
+62516251 = class 3, rank: 4
+52315231 = class 3, rank: 4
+52315231 = class 3, rank: 4
+53415341 = class 3, rank: 4
+62416241 = class 3, rank: 4
+53415341 = class 3, rank: 4
+52415241 = class 3, rank: 4
+63416341 = class 3, rank: 4
+62416241 = class 3, rank: 4
+62416241 = class 3, rank: 4
+63416341 = class 3, rank: 4
+7
